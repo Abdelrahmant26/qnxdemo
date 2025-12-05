@@ -19,5 +19,5 @@ This program creates a fullscreen window and continuously cycles through colors.
 
 For ARM 64-bit (Raspberry Pi 4):
 ```bash
-qcc -Vgcc_ntoaarch64le -o color_cycle gradient.c -lscreen
+qcc -Vgcc_ntoaarch64le -o color_cycle mydemo.c -lscreen
 ```
